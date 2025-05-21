@@ -406,6 +406,13 @@ span{
     html{
         font-size: 55%;
     }
+     .home-img img{
+        width: 40vw;
+        height: 60vh;
+        margin-top: 4rem;
+        margin-left: 20rem;
+        /* display: none; */
+    }
 }
 
 @media (max-width:991px){
@@ -454,12 +461,12 @@ span{
         margin: 3rem 0;
     }
 
-    .home{
+    /* .home{
         flex-direction: column;
-    }
-    .home-content{
+    } */
+    /* .home-content{
         order: 2;
-    }
+    } */
     .home-content h3{
         font-size: 2.6rem;
     }
@@ -468,9 +475,11 @@ span{
     }
 
     .home-img img{
-        width: 60vw;
+        width: 40vw;
+        height: 60vh;
         margin-top: 4rem;
-        display: none;
+        margin-left: 20rem;
+        /* display: none; */
     }
     .skills-section{
         flex-direction: column;
@@ -486,6 +495,7 @@ span{
     .home-img img{
         width: 60vw;
         margin-top: 8rem;
+        display: none;
     }
     
 }
@@ -499,6 +509,14 @@ span{
     }
 }
 
+/* @media (max-width:220px){
+    html{
+        font-size: 50%;
+    }
+    .contact form .input-box input{
+        width: 100%;
+    }
+} */
 #msg{
     color: #ccc;
     margin-left: 50px;
