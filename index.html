@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Personal Portfolio Website Design</title>
+</head>
+<body>
+    <!-- Header Design -->
+     <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#skill">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+     </header>
+     <!-- Home Design -->
+      <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1><span>Tania</span> Devi</h1>
+            <h3>And I'm a <span class="change"></span></h3>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/tania-devi-5b95772aa/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/taniadevi-15"><i class="fa-brands fa-github"></i></a>
+                <a href="taniarajput303@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+ 
+            </div>
+            <a href="Resume.pdf" download class="btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="uni.jpg" alt="">
+        </div>
+      </section>
+
+      <!-- SKills Design -->
+
+      <section class="skills-section" id="skill">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend Development</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Tailwind CSS, GSAP</li>
+                    <li>Material-UI</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-server"></i>
+                <h3>Backend Development</h3>
+                <ul>
+                    <li>Node.js, Express</li>
+                    <li>MongoDB, SQL</li>
+                    <li>REST APIs, JWT Auth</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Competitive Programming</h3>
+                <p>
+                    Solved 410+ problems on Leetcode. <br>
+                    <strong>Rating:</strong> 1500+ <br>
+                    <em>Reach out for a DSA roadmap!</em>
+                </p>
+            </div>
+        </div>
+        <p class="connect-text">Open to projects, internships, and collaborations! 🚀</p>
+    </section>
+    
+      <!-- Projects Design -->
+       
+      <section class="projects" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-container">
+      
+          <!-- Code Reviewer -->
+          <div class="project-card">
+            <h3>Code Reviewer</h3>
+            <p>A full-stack web app that analyzes code and provides optimized, efficient versions. Enhances performance, reduces redundancy, and enforces best practices.</p>
+            <div class="project-links">
+              <a href="https://github.com/taniadevi-15/Code-Reviewer" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+      
+          <!-- Chatting App -->
+          <div class="project-card">
+            <h3>Chatting App</h3>
+            <p>Real-time chat application with group messaging, notifications, and a seamless UI. Built for fast and uninterrupted communication using JavaScript.</p>
+            <div class="project-links">
+              <a href="https://github.com/taniadevi-15/Chating-App" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+      
+          <!-- Converter -->
+          <div class="project-card">
+            <h3>Converter</h3>
+            <p>An intuitive tool to convert Word files to PDF. Maintains formatting and simplifies file transformation with just a click.</p>
+            <div class="project-links">
+              <a href="https://github.com/taniadevi-15/Converter" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+      
+          </div>
+      
+        </div>
+      </section>
+      
+
+
+     <!-- Contact Design -->
+      <section class="contact" id="contact">
+        <h2 class="heading"> Contact
+            <span>Me</span>
+        </h2>
+        <form action="#" name="submit-to-google-sheet">
+            <div class="input-box">
+                <input type="text" placeholder="Fullname" name="Name">
+                <input type="email" placeholder="Email Address" name="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" name="Number">
+                <input type="text" placeholder="Email Subject" name="Subject">
+            </div>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" ></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+        <span id="msg"></span>
+      </section>
+
+       <!-- Footer Design -->
+
+       <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by @taniadevi | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i> </a>
+        </div>
+       </footer>
+
+
+        <!-- Scroll Reveal js -->
+       <script src="https://unpkg.com/scrollreveal"></script>
+
+       <!-- Scroll Reveal js -->
+       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.und.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
