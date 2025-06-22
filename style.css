@@ -537,11 +537,10 @@ span{
         justify-content: center;
     }
 
-    .home-img img {
-        width: 32vw;
-        height: auto;
-        margin-left: 0;
-        border-radius: 45%;
+    .home-img img{
+        width: 60vw;
+        margin-top: 8rem;
+        display: none;
     }
 }
 
