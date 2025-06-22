@@ -529,6 +529,8 @@ span{
         flex: 1;
         text-align: left;
         padding-right: 2rem;
+        text-align: center;
+        justify-items: center;
     }
 
     .home-img {
