@@ -517,6 +517,34 @@ span{
         width: 100%;
     }
 } */
+ @media (min-width: 768px) and (max-width: 1200px) {
+    .home {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5%;
+    }
+
+    .home-content {
+        flex: 1;
+        text-align: left;
+        padding-right: 2rem;
+    }
+
+    .home-img {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-img img {
+        width: 32vw;
+        height: auto;
+        margin-left: 0;
+        border-radius: 45%;
+    }
+}
+
 #msg{
     color: #ccc;
     margin-left: 50px;
