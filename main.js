@@ -56,13 +56,6 @@ ScrollReveal().reveal('.home-content h1 ',{origin: 'left'});
 ScrollReveal().reveal('.home-content p ,contact h2',{origin: 'right'});
 
 // typed js
-const typed = new Typed('.change',{
-    strings: ['Software Developer','FullStack Developer','Competitive Programmer'],
-    typeSpeed: 70,
-    backSpeed: 70,
-    backDelay: 1000,
-    loop: true,
-})
 
 
   const scriptURL = 'https://script.google.com/macros/s/AKfycbyd4fDKLzPLXsatzyWJMLcFTZuBR9bRiOpT9qn6-nPKly0G5-6XgobBS7NtX9WUxj_o/exec'
